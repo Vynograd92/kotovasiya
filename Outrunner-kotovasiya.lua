@@ -219,8 +219,8 @@ function getScenarioVariables()
     { name = 'TIER_1_CITY_INCOME', value = 0 }, -- Все расы: доход от города 1 уровня
     { name = 'TIER_2_CITY_INCOME', value = 0 }, -- Все расы: доход от города 2 уровня
     { name = 'TIER_3_CITY_INCOME', value = 0 }, -- Все расы: доход от города 3 уровня
-    { name = 'TIER_4_CITY_INCOME', value = 0 }, -- Все расы: доход от города 4 уровня
-    { name = 'TIER_5_CITY_INCOME', value = 0 }, -- Все расы: доход от города 5 уровня
+    { name = 'TIER_4_CITY_INCOME', value = 75 }, -- Все расы: доход от города 4 уровня
+    { name = 'TIER_5_CITY_INCOME', value = 125 }, -- Все расы: доход от города 5 уровня
 }
 end
 
