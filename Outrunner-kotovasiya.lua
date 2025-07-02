@@ -2009,11 +2009,12 @@ function unitsMercT0(race)
     }
 
     local race_excludes = {
-        [Race.Human]   = {}, -- { 'g003uu5001', 'g000uu0006', 'g000uu0011', 'g000uu0001', 'g000uu0008' },
-        [Race.Dwarf]   = {}, -- { 'g000uu0036', 'g000uu0026', 'g004uu5039', 'g000uu0033' },
-        [Race.Undead]  = {}, -- { 'g000uu0052','g000uu0062' },
-        [Race.Heretic] = {}, -- { 'g000uu0080', 'g001uu7539', 'g000uu0086', 'g000uu0092','g000uu0078' },
-        [Race.Elf]     = {} -- { 'g000uu8031', 'g000uu8014', 'g000uu8025', 'g000uu8018' },
+		-- убрали девочку бафалку g000uu0033
+        [Race.Human]   = {'g000uu0033'}, -- { 'g003uu5001', 'g000uu0006', 'g000uu0011', 'g000uu0001', 'g000uu0008' },
+        [Race.Dwarf]   = {'g000uu0033'}, -- { 'g000uu0036', 'g000uu0026', 'g004uu5039', 'g000uu0033' },
+        [Race.Undead]  = {'g000uu0033'}, -- { 'g000uu0052','g000uu0062' },
+        [Race.Heretic] = {'g000uu0033'}, -- { 'g000uu0080', 'g001uu7539', 'g000uu0086', 'g000uu0092','g000uu0078' },
+        [Race.Elf]     = {'g000uu0033'} -- { 'g000uu8031', 'g000uu8014', 'g000uu8025', 'g000uu8018' },
     }
 
     local unitsm = {}
