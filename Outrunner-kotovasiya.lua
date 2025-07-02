@@ -2073,8 +2073,7 @@ if math.random(0,2) ~= 1 then unitsm[i] = { id = 'g000uu0027', level = 2, unique
 --  // Маги2
 unitsm[i] = { id = MercMg2(), level = 1, unique = true } i = i + 1
 -- Посвященная // Поддержка2
-	-- выключил в рамках  блока девочек
---if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
+if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
 -- Йети / Холмовой великан // Велики1
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0043','g000uu0029'), level = 1, unique = true } else unitsm[i] = { id = MercB1(), level = 1, unique = true } end i = i + 1
 ---
@@ -2220,9 +2219,7 @@ if math.random(0,2) ~= 1 then unitsm[i] = { id = 'g000uu0027', level = 2, unique
 --  // Маги2
 unitsm[i] = { id = MercMg2(), level = 1, unique = true } i = i + 1
 -- Посвященная // Поддержка2
-	-- выключил в рамках  блока девочек
---if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
---
+if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
 -- Белый волк / Ветеран // Мили3
 if math.random(0,2) ~= 1 then unitsm[i] = rnd({ id = 'g001uu7571', level = 2, unique = true },{ id = 'g000uu0038', level = 3, unique = true }) else unitsm[i] = { id = MercM3(), level = 1, unique = true } end i = i + 1
 -- Гарм / Защитник горна / Сотрясатель // Лучники3
@@ -2357,6 +2354,7 @@ if math.random(0,2) ~= 1 then unitsm[i] = { id = 'g000uu7595', level = 2, unique
 
 elseif race == Race.Dwarf then
 unitsm[i] = { id = 'g000uu0036', level = 1, unique = false } i = i + 1 -- Гном
+unitsm[i] = { id = 'g000uu0034', level = 1, unique = false } i = i + 1 -- Посвященная
 -- Белый волк / Ветеран // Мили3
 if math.random(0,2) ~= 1 then unitsm[i] = rnd({ id = 'g001uu7571', level = 2, unique = true },{ id = 'g000uu0038', level = 3, unique = true }) else unitsm[i] = { id = MercM3(), level = 1, unique = true } end i = i + 1
 -- Гарм / Защитник горна / Сотрясатель // Лучники3
