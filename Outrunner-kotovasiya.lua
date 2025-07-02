@@ -2073,7 +2073,8 @@ if math.random(0,2) ~= 1 then unitsm[i] = { id = 'g000uu0027', level = 2, unique
 --  // Маги2
 unitsm[i] = { id = MercMg2(), level = 1, unique = true } i = i + 1
 -- Посвященная // Поддержка2
-if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
+	-- выключил в рамках  блока девочек
+--if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
 -- Йети / Холмовой великан // Велики1
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0043','g000uu0029'), level = 1, unique = true } else unitsm[i] = { id = MercB1(), level = 1, unique = true } end i = i + 1
 ---
@@ -2219,7 +2220,8 @@ if math.random(0,2) ~= 1 then unitsm[i] = { id = 'g000uu0027', level = 2, unique
 --  // Маги2
 unitsm[i] = { id = MercMg2(), level = 1, unique = true } i = i + 1
 -- Посвященная // Поддержка2
-if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
+	-- выключил в рамках  блока девочек
+--if math.random(0,3) ~= 1 then unitsm[i] = { id = 'g000uu0034', level = 2, unique = true } else unitsm[i] = { id = MercH2(), level = 1, unique = true } end i = i + 1
 --
 -- Белый волк / Ветеран // Мили3
 if math.random(0,2) ~= 1 then unitsm[i] = rnd({ id = 'g001uu7571', level = 2, unique = true },{ id = 'g000uu0038', level = 3, unique = true }) else unitsm[i] = { id = MercM3(), level = 1, unique = true } end i = i + 1
@@ -2228,7 +2230,8 @@ if math.random(0,2) ~= 1 then unitsm[i] = rnd({ id = 'g004uu8005', level = 2, un
 -- Горец / Мастер печи // Маги3
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0041','g006uu1128'), level = 3, unique = true } else unitsm[i] = { id = MercMg3(), level = 1, unique = true } end i = i + 1
 -- Алхимик / Друид / Исса // Поддержка3
-if math.random(0,3) ~= 1 then unitsm[i] = { id = rnd('g000uu0161','g000uu0035','g000uu7558'), level = 3, unique = true } else unitsm[i] = { id = MercH3(), level = 1, unique = true } end i = i + 1
+	--выключил в рамках теста девочек баферш
+--if math.random(0,3) ~= 1 then unitsm[i] = { id = rnd('g000uu0161','g000uu0035','g000uu7558'), level = 3, unique = true } else unitsm[i] = { id = MercH3(), level = 1, unique = true } end i = i + 1
 -- Йети / Холмовой великан // Велики1
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0043','g000uu0029'), level = 1, unique = true } else unitsm[i] = { id = MercB1(), level = 1, unique = true } end i = i + 1
 
@@ -2361,8 +2364,8 @@ if math.random(0,2) ~= 1 then unitsm[i] = rnd({ id = 'g004uu8005', level = 2, un
 -- Горец / Мастер печи // Маги3
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0041','g006uu1128'), level = 3, unique = true } else unitsm[i] = { id = MercMg3(), level = 1, unique = true } end i = i + 1
 -- Алхимик / Друид / Исса // Поддержка3
-if math.random(0,3) ~= 1 then unitsm[i] = { id = rnd('g000uu0161','g000uu0035','g000uu7558'), level = 3, unique = true } else unitsm[i] = { id = MercH3(), level = 1, unique = true } end i = i + 1
---
+		--выключил в рамках теста девочек баферш
+--if math.random(0,3) ~= 1 then unitsm[i] = { id = rnd('g000uu0161','g000uu0035','g000uu7558'), level = 3, unique = true } else unitsm[i] = { id = MercH3(), level = 1, unique = true } end i = i + 1
 -- Старый ветеран / Хранитель рун // Мили4
 if math.random(0,2) ~= 1 then unitsm[i] = { id = rnd('g000uu0040','g000uu2011'), level = 4, unique = true } else unitsm[i] = { id = MercM4(), level = 1, unique = true } end i = i + 1
 --  // Лучники4
